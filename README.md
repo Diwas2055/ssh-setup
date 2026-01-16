@@ -10,12 +10,10 @@ A comprehensive bash script for automating SSH key-based authentication setup, e
 - [Installation](#installation)
 - [Usage](#usage)
 - [Configuration](#configuration)
-- [Troubleshooting](#troubleshooting)
-- [Security Considerations](#security-considerations)
 - [Advanced Usage](#advanced-usage)
+- [Troubleshooting](#troubleshooting)
 - [FAQ](#faq)
-- [Contributing](#contributing)
-- [License](#license)
+- [Additional Resources](#additional-resources)
 
 ## 🎯 Overview
 
@@ -558,49 +556,7 @@ pbcopy < ~/.ssh/id_ed25519_webserver.pub
 
 **A:** Technically yes, but it's not recommended. Use a regular user with sudo privileges instead.
 
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-### Development Setup
-
-```bash
-# Clone the repository
-git clone https://github.com/Diwas2055/ssh-setup.git
-cd ssh-setup
-
-# Make changes and test
-./setup_ssh_passwordless.sh --help
-```
-
-### Coding Standards
-
-- Follow bash best practices
-- Use shellcheck for linting
-- Add comments for complex logic
-- Update README for new features
-
-### Testing
-
-```bash
-# Lint the script
-shellcheck setup_ssh_passwordless.sh
-
-# Test in different environments
-docker run -it ubuntu:22.04 bash
-```
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 🙏 Acknowledgments
-
-- OpenSSH team for the excellent SSH implementation
-- The Linux/Unix community for best practices and security guidelines
-- Contributors and users who provide feedback and improvements
-
-##  Additional Resources
+## 📚 Additional Resources
 
 - [OpenSSH Documentation](https://www.openssh.com/manual.html)
 - [SSH Academy](https://www.ssh.com/academy/ssh)
